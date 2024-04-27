@@ -31,7 +31,7 @@ export default {
   chat: {
     newChatButton: '새로운 채팅',
     newChatTitle: '새로운 채팅',
-    placeholder: '무엇이든 물어보세요...(Shift + Enter = 줄바꿈, "/"를 눌러서 힌트를 보세요)',
+    placeholder: '무엇이든 물어보세요...(Enter = 줄바꿈, "/"를 눌러서 힌트를 보세요)',
     placeholderMobile: '무엇이든 물어보세요...',
     copy: '복사',
     copied: '복사됨',
