@@ -383,9 +383,17 @@ function handleClear() {
 }
 
 function handleEnter(event: KeyboardEvent) {
-  if (event.key === 'Enter' && event.ctrlKey) {
-    event.preventDefault()
-    handleSubmit()
+  if (!isMobile.value) {
+    if (event.key === 'Enter' && !event.shiftKey) {
+      event.preventDefault()
+      handleSubmit()
+    }
+  }
+  else {
+    if (event.key === 'Enter' && event.ctrlKey) {
+      event.preventDefault()
+      handleSubmit()
+    }
   }
 }
 

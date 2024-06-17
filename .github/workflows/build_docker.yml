@@ -2,8 +2,9 @@ name: build_docker
 
 on:
   push:
-    branches:
-      - "main"
+    branches: [main]
+  release:
+    types: [created] # 表示在创建新的 Release 时触发
 
 jobs:
   build_docker:

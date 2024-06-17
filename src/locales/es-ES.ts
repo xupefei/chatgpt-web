@@ -31,7 +31,7 @@ export default {
   chat: {
     newChatButton: 'Nueva conversación',
     newChatTitle: 'Nueva conversación',
-    placeholder: 'Pregúntame lo que sea...(Enter = salto de línea, "/" para activar avisos)',
+    placeholder: 'Pregúntame lo que sea...(Shift + Enter = salto de línea, "/" para activar avisos)',
     placeholderMobile: 'Pregúntame lo que sea...',
     copy: 'Copiar',
     copied: 'Copiado',
