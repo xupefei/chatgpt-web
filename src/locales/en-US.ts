@@ -31,7 +31,7 @@ export default {
   chat: {
     newChatButton: 'New Chat',
     newChatTitle: 'New Chat',
-    placeholder: 'Ask me anything...(Shift + Enter = line break, "/" to trigger prompts)',
+    placeholder: 'Ask me anything...(Enter = line break, "/" to trigger prompts)',
     placeholderMobile: 'Ask me anything...',
     copy: 'Copy',
     copied: 'Copied',

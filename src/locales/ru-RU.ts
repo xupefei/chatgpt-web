@@ -31,7 +31,7 @@ export default {
   chat: {
     newChatButton: 'Новый чат',
     newChatTitle: 'Новый чат',
-    placeholder: 'Спросите меня о чем-нибудь ... (Shift + Enter = перенос строки, "/" для вызова подсказок)',
+    placeholder: 'Спросите меня о чем-нибудь ... (Enter = перенос строки, "/" для вызова подсказок)',
     placeholderMobile: 'Спросите меня о чем-нибудь ...',
     copy: 'Копировать',
     copied: 'Скопировано',

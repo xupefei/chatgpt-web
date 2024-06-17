@@ -30,7 +30,7 @@ export default {
   chat: {
     newChatButton: 'Tạo hội thoại',
     newChatTitle: 'Tạo hội thoại',
-    placeholder: 'Hỏi tôi bất cứ điều gì...(Shift + Enter = ngắt dòng, "/" to trigger prompts)',
+    placeholder: 'Hỏi tôi bất cứ điều gì...(Enter = ngắt dòng, "/" to trigger prompts)',
     placeholderMobile: 'Hỏi tôi bất cứ điều gì...',
     copy: 'Sao chép',
     copied: 'Đã sao chép',
