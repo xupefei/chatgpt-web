@@ -70,6 +70,11 @@ let api: ChatGPTAPI | ChatGPTUnofficialProxyAPI
       }
     }
 
+    if (isNotEmptyString(process.env.OPENAI_API_MAX_MODEL_TOKENS))
+      options.maxModelTokens = parseInt(process.env.OPENAI_API_MAX_MODEL_TOKENS)
+    if (isNotEmptyString(process.env.OPENAI_API_MAX_RESPONSE_TOKENS))
+      options.maxResponseTokens = parseInt(process.env.OPENAI_API_MAX_RESPONSE_TOKENS)
+
     if (isNotEmptyString(OPENAI_API_BASE_URL)) {
       // if find /v1 in OPENAI_API_BASE_URL then use it
       if (OPENAI_API_BASE_URL.includes('/v1'))
